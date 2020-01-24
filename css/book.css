@@ -1,0 +1,182 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 30px;
+}
+#first-sem-csit{
+    background-color: red;
+}
+
+ .title{
+     margin-top: 30px;
+     padding-top: 10px;
+     padding-bottom: 50px;
+     text-align: center;
+  */
+  *{
+    margin: 0;       
+    padding: 0;
+    font-family: Century Gothic;
+    
+    }
+    body{
+        line-height: 1.5;
+    }
+    header{
+        background: linear-gradient(#0f4675,#0f4675 50%,#fff 50%, #fff 100%);
+         /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+        height:100px;
+        background-size:cover;
+        background-position:center;
+    
+    }
+    
+    /* .container{
+        width: 100%;
+        height: 100%; */
+        /* CSS Smooth Scroll */
+        /* overflow: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        */  
+        
+        ul{
+            display: flex;
+            float:right;
+            list-style-type: none;
+            margin-top: 40px;
+        }
+        
+        ul li{
+           display: inline-block;
+        
+        }
+        
+        ul li a{
+            text-decoration: navy;
+            color:#fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        
+        }
+        
+        ul li a:hover{
+             background-color: #fff;
+             color: #000;
+        
+             }
+        ul li.active a{
+            background-color: #fff;
+            color: #000; 
+        }
+        
+        .main{
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .title{
+             position: absolute;
+             top: 40%;
+             left:20%;
+             transform: translate(-40%,-40%);
+        
+        }
+        .title h1{
+             color:#fff;
+             font-size: 50px;
+        }
+        
+        .button{
+            position: absolute;
+            top: 60%;
+        left: 50%;
+            
+            transform: translate(-50%,-50%);
+        }
+        
+        
+        .btn{
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            color:#fff;
+            text-decoration:none ;
+        transition: 0.6s ease;
+        }
+        
+        .btn:hover{
+            background-color: #fff;
+            color: #000;
+        
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            /* height: 100vh; */
+            scroll-snap-align: center; /* it moves the slide when it is not in position*/
+          
+          }
+          
+           section h1{
+            font-size: 4rem;
+          
+          }
+          
+          section p{
+              font-size:1.5rem;
+          } 
+          /* Section of images */
+          section#Home{
+              background-image: url(../images/computer\ \(1\).jpg);
+          }
+          
+          section#Services{
+              background: #ffffff;
+          }
+          
+          section#Gallery{
+              background: rgb(241, 208, 157);
+          }
+          
+          section#About{
+              background: rgb(194, 228, 243);
+          }
+        
+          #bca h1{
+              font-size: 23px;
+          }
+          #bit h1{
+              font-size: 23px;
+          }
+          .card{
+              margin: 10px;
+              border: none;
+              outline: none;
+              box-shadow: -5px -5px 13px -1px rgba(0,0,0,0.75);
+          }
+          .card .card-text{
+                    font-size: 15px;
+          }
+        .card .btn{
+              background-color: rgb(219, 76, 76);
+              border: none;
+          }
+        
+               
+        
+         
+        
+        
+        
+        
+        
+        
+        
